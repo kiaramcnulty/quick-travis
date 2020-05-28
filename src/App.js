@@ -116,7 +116,7 @@ function App() {
             <DndProvider backend={Backend}>
             <ItemList state = { {path, setPath} } itemState = { { data, setData } } userState = { {user, setUser} } selectedState={ { selected, setSelected } }/>
             </DndProvider>
-          <Box fontSize={16} fontWeight={1000} marginTop="10px">
+          {/* <Box fontSize={16} fontWeight={1000} marginTop="10px"> */}
             Current directory:
           <Box fontSize={16} display="inline" fontColor="grey"> { path } </Box>
           </Box>
